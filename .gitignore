@@ -11,6 +11,9 @@
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
+*.xdv
+*.fdb_latexmk
+*.synctex.gz
 
 ### Editor ###
 ## Vim & Emacs temp files:
@@ -21,3 +24,6 @@
 ## Mac OS X metadata files:
 *.DS_Store
 
+
+## Output Documents
+*.pdf
