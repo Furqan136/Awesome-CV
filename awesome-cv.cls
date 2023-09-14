@@ -93,6 +93,8 @@
 % Solves issues Warning: File `cv.out' has changed
 \RequirePackage{bookmark}
 
+\usepackage[none]{hyphenat}
+
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
 %-------------------------------------------------------------------------------
