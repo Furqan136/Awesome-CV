@@ -81,6 +81,13 @@
 %\quote{``Be the change that you want to see in the world."}
 
 
+% The date on the cv, default is the date of compilation
+\letterdate{\today}
+% How the cv is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the cv
+\letterenclosure[Attached]{Cover Letter}
+
 %-------------------------------------------------------------------------------
 \begin{document}
 
@@ -111,6 +118,7 @@
 %\input{cv/writing.tex}
 %\input{cv/committees.tex}
 
+\makecvclosing
 
 %-------------------------------------------------------------------------------
 \end{document}

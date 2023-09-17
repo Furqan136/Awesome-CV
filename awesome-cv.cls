@@ -778,6 +778,22 @@
 }
 
 
+% Define a closing of the cv
+% Usage: \makecvclosing
+\newcommand*{\makecvclosing}{%
+  \vspace{10.4mm}
+  \lettertextstyle{\@letterclosing} \\\\
+  \letternamestyle{\@firstname\ \@lastname}\\
+  \letterdatestyle{\@letterdate}
+  \ifthenelse{\isundefined{\@letterenclosure}}
+    {\\}
+    {%
+      \\\\\\
+      \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
+    }
+}
+
+
 %-------------------------------------------------------------------------------
 %                Commands for elements of Cover Letter
 %-------------------------------------------------------------------------------
