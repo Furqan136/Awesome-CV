@@ -488,7 +488,7 @@
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          \href{\@teluri}{\faMobile\acvHeaderIconSep\@mobile \space(Whatsapp / Skype / Telegram Enabled)}%
+          \href{\@teluri}{\faMobile\acvHeaderIconSep\@mobile \space(WhatsApp / Skype / Telegram Enabled)}%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
